@@ -16,4 +16,16 @@ public class Planet {
 		this.satellites = satellites;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
+	public double getVolume() {
+		return volume;
+	}
+	
+	public int getDistanceFromSun() {
+		return distanceFromSun;
+	}
+	
 }
